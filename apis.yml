@@ -1,0 +1,123 @@
+aid: phidata
+name: Phidata / Agno
+description: >-
+  Agno (formerly Phidata) is a Python framework, runtime, and control plane
+  for building, running, and managing fleets of AI agents. The core agno
+  library provides Agent, Team, Workflow, Tools, Memory, and Knowledge
+  primitives across many LLM providers. AgentOS adds a FastAPI runtime with
+  50+ REST/SSE/WebSocket endpoints, plus a hosted control plane UI at
+  os.agno.com for tracing, scheduling, RBAC, audit, and human approval -
+  while user data stays inside the customer's own cloud.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/phidata/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+tags:
+  - AI Agents
+  - Agno
+  - Phidata
+  - Python
+  - Framework
+  - Runtime
+  - AgentOS
+  - Multi-Agent
+  - Memory
+  - Tools
+  - Open Source
+apis:
+  - aid: phidata:agno-framework
+    name: Agno Python Framework
+    description: >-
+      Open-source Python framework for building agents with memory, knowledge,
+      and tools. Provides Agent, Team, Workflow, Tools, Memory, Knowledge, and
+      Storage primitives. Multi-modal and type-safe; supports many LLM
+      providers.
+    humanURL: https://docs.agno.com/introduction
+    baseURL: https://pypi.org/project/agno/
+    tags:
+      - Python
+      - Framework
+      - Agents
+      - Memory
+      - Tools
+      - Multi-modal
+    properties:
+      - type: Documentation
+        url: https://docs.agno.com/introduction
+      - type: SDK
+        url: https://pypi.org/project/agno/
+      - type: Repository
+        url: https://github.com/agno-agi/agno
+  - aid: phidata:agentos-runtime
+    name: AgentOS Runtime API
+    description: >-
+      Pre-built FastAPI runtime that exposes 50+ REST, SSE, and WebSocket
+      endpoints for running agents, teams, and workflows in production.
+      Deployable as a Docker container in any cloud or data center, keeping
+      sessions, memory, traces, and logs in the customer's infrastructure.
+    humanURL: https://docs.agno.com/agent-os/introduction
+    baseURL: https://docs.agno.com/agent-os/introduction
+    tags:
+      - REST
+      - SSE
+      - WebSocket
+      - FastAPI
+      - Runtime
+      - Self-Hosted
+    properties:
+      - type: Documentation
+        url: https://docs.agno.com/agent-os/introduction
+      - type: Repository
+        url: https://github.com/agno-agi/agno
+  - aid: phidata:agentos-control-plane
+    name: AgentOS Control Plane
+    description: >-
+      Hosted web UI at os.agno.com for managing, monitoring, debugging, and
+      testing AgentOS deployments. Connects directly from the browser to the
+      customer's AgentOS runtime without proxying data through Agno servers.
+    humanURL: https://os.agno.com
+    baseURL: https://os.agno.com
+    tags:
+      - Control Plane
+      - UI
+      - Monitoring
+      - Tracing
+      - RBAC
+    properties:
+      - type: Documentation
+        url: https://docs.agno.com/agent-os/introduction
+      - type: Login
+        url: https://os.agno.com
+common:
+  - type: Website
+    url: https://agno.com
+  - type: Website
+    url: https://www.phidata.com
+  - type: Portal
+    url: https://docs.agno.com
+  - type: Documentation
+    url: https://docs.agno.com
+  - type: GitHub
+    url: https://github.com/agno-agi
+  - type: Repository
+    url: https://github.com/agno-agi/agno
+  - type: SDK
+    url: https://pypi.org/project/agno/
+  - type: Login
+    url: https://os.agno.com
+  - type: Examples
+    url: https://docs.agno.com/examples/introduction
+  - type: Blog
+    url: https://www.agno.com/blog
+  - type: TermsOfService
+    url: https://www.agno.com/terms
+  - type: PrivacyPolicy
+    url: https://www.agno.com/privacy
+  - type: Community
+    url: https://discord.gg/4MtYHHrgA8
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
