@@ -47,7 +47,7 @@ apis:
     properties:
       - type: Documentation
         url: https://docs.agno.com/introduction
-      - type: SDK
+      - type: SDKs
         url: https://pypi.org/project/agno/
       - type: Repository
         url: https://github.com/agno-agi/agno
@@ -104,7 +104,7 @@ common:
     url: https://github.com/agno-agi
   - type: Repository
     url: https://github.com/agno-agi/agno
-  - type: SDK
+  - type: SDKs
     url: https://pypi.org/project/agno/
   - type: Login
     url: https://os.agno.com
