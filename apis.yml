@@ -92,6 +92,8 @@ apis:
       - type: Login
         url: https://os.agno.com
 common:
+  - type: DomainSecurity
+    url: security/phidata-domain-security.yml
   - type: Website
     url: https://agno.com
   - type: Website
