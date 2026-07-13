@@ -2,13 +2,14 @@
   "repo": "phidata",
   "feeds": [
     {
-      "source": "https://www.agno.com/blog",
-      "feed_url": "",
+      "source": "https://docs.agno.com/examples/introduction",
+      "feed_url": "https://docs.agno.com/examples/introduction",
+      "title": "",
       "saved": 0,
-      "method": "agent-scrape"
+      "method": "none"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-06-27T13:01:07Z",
-  "agent_pulled": "2026-06-27"
+  "post_count": 2,
+  "fetched": "2026-07-11T11:50:51Z",
+  "agent_pulled": "2026-07-04"
 }
