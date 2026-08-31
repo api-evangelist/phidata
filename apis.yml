@@ -80,7 +80,7 @@ apis:
       - Agents
       - Memory
       - Tools
-      - Multi-Modal
+      - Multi-modal
     tags_raw:
       - Python
       - Framework
