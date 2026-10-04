@@ -51,7 +51,7 @@ tags:
   - Multi-Agent
   - Memory
   - Tools
-  - Open-Source
+  - Open Source
 tags_raw:
   - AI Agents
   - Agno
@@ -64,6 +64,7 @@ tags_raw:
   - Memory
   - Tools
   - Open Source
+  - Open-Source
 apis:
   - aid: phidata:agno-framework
     name: Agno Python Framework
