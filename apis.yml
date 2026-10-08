@@ -137,6 +137,12 @@ apis:
       - type: Login
         url: https://os.agno.com
 common:
+  - type: Plans
+    url: plans/phidata-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/phidata-rate-limits.yml
+  - type: FinOps
+    url: finops/phidata-finops.yml
   - type: IssueTracker
     url: https://github.com/agno-agi/agno/issues
   - type: Releases
